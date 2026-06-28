@@ -273,24 +273,28 @@
         </div>
       </div>
 
-      <form class="pickup-form fade-in">
-        <label>Name<input type="text" placeholder="Your name"></label>
-        <label>Phone<input type="tel" placeholder="Your phone number"></label>
+      <form class="pickup-form fade-in" action="https://formsubmit.co/saltyairlaundrt904@gmail.com" method="POST">
+        <label>Name<input type="text" name="Name" placeholder="Your name" required></label>
+        <label>Phone<input type="tel" name="Phone" placeholder="Your phone number" required></label>
         <label>Service Area
-          <select>
+          <select name="Service Area" required>
             <option>Amelia Island</option>
             <option>Fernandina Beach</option>
             <option>Yulee</option>
           </select>
         </label>
         <label>Preferred Route
-          <select>
+          <select name="Preferred Route" required>
             <option>Sunrise Route</option>
             <option>Sea Breeze Route</option>
           </select>
         </label>
-        <label>Special Instructions<textarea placeholder="Fragrance-free, low heat, porch pickup notes, etc."></textarea></label>
+        <label>Special Instructions<textarea name="Special Instructions" placeholder="Fragrance-free, low heat, porch pickup notes, etc."></textarea></label>
+        <input type="hidden" name="_subject" value="New Salty Air Laundry Pickup Request">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
         <button class="button primary full" type="submit">Request Pickup</button>
+        <p class="form-note">After submitting, you may be asked once to confirm delivery to our email address.</p>
       </form>
     </section>
   </main>
