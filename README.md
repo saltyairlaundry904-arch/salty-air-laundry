@@ -1,15 +1,10 @@
-# Salty Air Laundry Website - Version 3.5
+# Salty Air Laundry Website - Version 3.6
 
 Updates:
-- Larger left-aligned logo
-- Clean premium transparent header
-- Navigation balanced on right
-- Better hero spacing and visual polish
-- Header slightly refines on scroll
+- Replaced fake phone number with 904-321-9219
+- Updated call/text buttons
+- Added visible phone number to schedule section and footer
 
-Upload:
-- index.html
-- style.css
-- script.js
-- logo.png
-- README.md
+Next:
+- Connect pickup form to Google Form
+- Connect saltyairlaundry.com

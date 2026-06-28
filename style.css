@@ -1013,3 +1013,10 @@ textarea {
     height: 50px !important;
   }
 }
+
+
+.phone-line {
+  margin-top: 14px;
+  color: rgba(255,255,255,.95) !important;
+  font-size: 1.1rem;
+}
