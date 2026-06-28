@@ -1,17 +1,20 @@
-# Salty Air Laundry Website - Version 3.9
+# Salty Air Laundry Website - Version 4.0 Launch Edition
 
-Updates:
-- Connected existing pickup form to FormSubmit
-- Form submissions go to: saltyairlaundrt904@gmail.com
-- Removed demo alert so the form submits properly
+Includes:
+- Clean rebuilt hero/header
+- Balanced time-back card
+- Real phone number: 904-321-9219
+- Real email/form destination: saltyairlaundry904@gmail.com
+- Existing form connected through FormSubmit
+- Premium logo opening animation
+- Flat GitHub structure
 
-Important:
-FormSubmit may send a one-time activation/confirmation email to saltyairlaundrt904@gmail.com.
-Open that email and confirm to activate the form.
-
-Upload:
+Upload these files to GitHub:
 - index.html
 - style.css
 - script.js
 - logo.png
 - README.md
+
+Important:
+FormSubmit may send a one-time confirmation email to saltyairlaundry904@gmail.com. Open it and confirm to activate the form.

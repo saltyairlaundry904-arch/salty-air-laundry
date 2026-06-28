@@ -5,7 +5,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     if (loader) loader.classList.add("hidden");
     document.body.classList.remove("loading");
-  }, 1800);
+  }, 1700);
 });
 
 const menuBtn = document.querySelector(".menu-btn");
@@ -33,23 +33,3 @@ const observer = new IntersectionObserver((entries) => {
 }, { threshold: 0.12 });
 
 fadeItems.forEach((item) => observer.observe(item));
-
-const form = document.querySelector(".pickup-form");
-
-if (form) {
-  form.addEventListener("submit", (event) => {
-    event.preventDefault();
-    alert("Pickup request received! Next we will connect this form to your real booking system.");
-  });
-}
-
-
-const siteHeader = document.getElementById("siteHeader");
-window.addEventListener("scroll", () => {
-  if (!siteHeader) return;
-  if (window.scrollY > 20) {
-    siteHeader.classList.add("scrolled");
-  } else {
-    siteHeader.classList.remove("scrolled");
-  }
-});
