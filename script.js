@@ -1,17 +1,17 @@
-const menuToggle = document.querySelector(".menu-toggle");
-const navLinks = document.querySelector(".nav-links");
+const menuButton = document.querySelector(".menu-button");
+const nav = document.querySelector(".nav");
 
-if (menuToggle && navLinks) {
-  menuToggle.addEventListener("click", () => {
-    navLinks.classList.toggle("open");
+if (menuButton && nav) {
+  menuButton.addEventListener("click", () => {
+    nav.classList.toggle("open");
   });
 
-  navLinks.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", () => navLinks.classList.remove("open"));
+  nav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => nav.classList.remove("open"));
   });
 }
 
-const revealItems = document.querySelectorAll(".reveal");
+const fadeItems = document.querySelectorAll(".fade-up");
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
@@ -22,13 +22,13 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.12 });
 
-revealItems.forEach((item) => observer.observe(item));
+fadeItems.forEach((item) => observer.observe(item));
 
 const form = document.querySelector(".pickup-form");
 
 if (form) {
   form.addEventListener("submit", (event) => {
     event.preventDefault();
-    alert("Pickup request received! Next step: we will connect this form to email or Google Forms.");
+    alert("Pickup request received! Next we will connect this form to your real booking system.");
   });
 }

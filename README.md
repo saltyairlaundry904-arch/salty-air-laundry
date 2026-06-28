@@ -1,15 +1,20 @@
-# Salty Air Laundry Website
+# Salty Air Laundry Website - Version 2
 
-Official website for Salty Air Laundry.
+This is Version 2 of the Salty Air Laundry website.
 
-## Files
-- `index.html` — website content
-- `styles/style.css` — design and layout
-- `scripts/script.js` — menu, animations, demo form
+## Upload Instructions
+Upload these files and folders to the root of your GitHub repository:
 
-## Next steps
-1. Upload these files to GitHub.
-2. Deploy with Cloudflare Pages.
-3. Replace placeholder phone number `+19040000000`.
-4. Add real logo and owner photo.
-5. Connect the pickup form to Google Forms or email.
+- index.html
+- styles/
+- scripts/
+- README.md
+
+## After Upload
+Cloudflare Pages should automatically redeploy.
+
+## Remember to update
+- Phone number: replace +19040000000 with your real Google Voice number.
+- Add owner photo later.
+- Add logo later.
+- Connect form to Google Forms or another booking tool.

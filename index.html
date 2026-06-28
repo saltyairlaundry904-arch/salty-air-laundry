@@ -3,56 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Salty Air Laundry | Pickup & Delivery Wash & Fold</title>
-  <meta name="description" content="Salty Air Laundry provides pickup and delivery wash and fold service for Amelia Island, Fernandina Beach, and Yulee. Fresh Laundry. Coastal Care. Delivered." />
-  <meta name="keywords" content="laundry pickup Amelia Island, wash and fold Fernandina Beach, laundry delivery Yulee, Salty Air Laundry" />
+
+  <title>Salty Air Laundry | Amelia Island Pickup & Delivery Laundry</title>
+  <meta name="description" content="Salty Air Laundry offers pickup and delivery wash and fold service on Amelia Island, Fernandina Beach, and Yulee. Fresh Laundry. Coastal Care. Delivered." />
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="styles/style.css" />
 </head>
+
 <body>
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="Salty Air Laundry home">
-      <span class="brand-mark">🌊</span>
+  <header class="header">
+    <a href="#top" class="logo">
+      <span class="logo-icon">🌊</span>
       <span>Salty Air Laundry</span>
     </a>
 
-    <button class="menu-toggle" aria-label="Open navigation menu">☰</button>
+    <button class="menu-button" aria-label="Open menu">☰</button>
 
-    <nav class="nav-links">
+    <nav class="nav">
       <a href="#how">How It Works</a>
       <a href="#pricing">Pricing</a>
       <a href="#club">Salty Air Club</a>
       <a href="#routes">Routes</a>
       <a href="#faq">FAQ</a>
-      <a class="nav-cta" href="#schedule">Schedule Pickup</a>
+      <a href="#schedule" class="nav-button">Schedule Pickup</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-overlay"></div>
-      <div class="hero-content reveal">
-        <p class="eyebrow">Pickup & Delivery Wash + Fold</p>
-        <h1>Laundry Day Just Became Beach Day.</h1>
-        <p class="tagline">Fresh Laundry. Coastal Care. Delivered.</p>
-        <p class="hero-copy">We don’t just wash laundry—we give you your time back. Serving Amelia Island, Fernandina Beach, and Yulee with dependable, personalized laundry care.</p>
+      <div class="hero-bg"></div>
 
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#schedule">Schedule My Pickup</a>
-          <a class="btn btn-secondary" href="tel:+19040000000">Call or Text</a>
+      <div class="hero-inner">
+        <div class="hero-copy fade-up">
+          <p class="small-title">Amelia Island Pickup & Delivery Wash + Fold</p>
+          <h1>Laundry Day Just Became Beach Day.</h1>
+          <p class="subtitle">Fresh Laundry. Coastal Care. Delivered.</p>
+          <p class="hero-text">We don’t just wash laundry — we give you your time back. Enjoy the coast, your family, or a quiet evening while we handle the washing, drying, folding, and delivery.</p>
+
+          <div class="hero-buttons">
+            <a href="#schedule" class="button primary">Schedule My Pickup</a>
+            <a href="#club" class="button ghost">Join the Salty Air Club</a>
+          </div>
         </div>
 
-        <div class="hero-highlights">
-          <span>🏝️ FREE Amelia Island Pickup & Delivery</span>
-          <span>🚚 FREE Pickup Everywhere for Salty Air Club Members</span>
-          <span>🎉 15% Off First Order</span>
+        <div class="hero-card fade-up">
+          <div class="card-badge">Grand Opening</div>
+          <h2>15% Off Your First Order</h2>
+          <p>$2.50/lb wash & fold</p>
+          <p>20 lb minimum</p>
+          <hr />
+          <p>🏝️ Free pickup on Amelia Island</p>
+          <p>🚚 Free pickup everywhere for club members</p>
         </div>
+      </div>
+
+      <div class="wave">
+        <svg viewBox="0 0 1440 140" preserveAspectRatio="none">
+          <path d="M0,70 C180,150 330,0 520,70 C710,140 900,10 1080,70 C1260,130 1350,70 1440,35 L1440,140 L0,140 Z"></path>
+        </svg>
       </div>
     </section>
 
-    <section class="trust-bar">
+    <section class="trust">
       <span>Locally Owned</span>
       <span>Personalized Coastal Care</span>
       <span>Senior-Friendly Service</span>
@@ -60,271 +76,245 @@
     </section>
 
     <section class="section intro">
-      <div class="section-header reveal">
-        <p class="eyebrow">Welcome to Salty Air Laundry</p>
+      <div class="center fade-up">
+        <p class="small-title">Your Time Matters</p>
         <h2>We take care of your laundry so you can take care of what matters most.</h2>
-        <p>From busy families and working professionals to seniors and vacation rental owners, our goal is simple: make laundry one less thing on your to-do list.</p>
+        <p>Salty Air Laundry is a local pickup and delivery laundry service proudly serving Amelia Island, Fernandina Beach, and Yulee.</p>
       </div>
     </section>
 
     <section id="how" class="section sand">
-      <div class="section-header reveal">
-        <p class="eyebrow">How It Works</p>
-        <h2>Fresh laundry in four simple steps.</h2>
+      <div class="center fade-up">
+        <p class="small-title">How It Works</p>
+        <h2>Simple, convenient, and designed around your day.</h2>
       </div>
 
-      <div class="cards four">
-        <article class="card reveal">
-          <div class="icon">📅</div>
-          <h3>1. Schedule</h3>
-          <p>Choose your preferred pickup route and share any laundry care preferences.</p>
-        </article>
-        <article class="card reveal">
-          <div class="icon">🧺</div>
-          <h3>2. We Pick Up</h3>
-          <p>Leave your laundry in your Salty Air Laundry bag at your designated pickup spot.</p>
-        </article>
-        <article class="card reveal">
-          <div class="icon">🌊</div>
-          <h3>3. Coastal Care</h3>
-          <p>We wash, dry, fold, and package your order with dependable, personalized care.</p>
-        </article>
-        <article class="card reveal">
-          <div class="icon">🏡</div>
-          <h3>4. Delivered Fresh</h3>
-          <p>Your laundry returns fresh, folded, and ready to put away.</p>
-        </article>
+      <div class="steps">
+        <div class="step fade-up">
+          <span>01</span>
+          <h3>Schedule</h3>
+          <p>Choose your pickup route and share any laundry preferences.</p>
+        </div>
+        <div class="step fade-up">
+          <span>02</span>
+          <h3>Porch Pickup</h3>
+          <p>Leave your laundry at your designated pickup location.</p>
+        </div>
+        <div class="step fade-up">
+          <span>03</span>
+          <h3>Coastal Care</h3>
+          <p>We wash, dry, fold, and package everything with care.</p>
+        </div>
+        <div class="step fade-up">
+          <span>04</span>
+          <h3>Delivered Fresh</h3>
+          <p>Your clean laundry returns folded and ready to put away.</p>
+        </div>
       </div>
     </section>
 
-    <section class="section">
-      <div class="section-header reveal">
-        <p class="eyebrow">Our Services</p>
-        <h2>Designed for real life on Amelia Island.</h2>
+    <section class="section services">
+      <div class="center fade-up">
+        <p class="small-title">Services</p>
+        <h2>Laundry care for homes, seniors, and vacation rentals.</h2>
       </div>
 
-      <div class="cards three">
-        <article class="card reveal">
-          <div class="icon">🧼</div>
+      <div class="service-grid">
+        <article class="service-card fade-up">
+          <div>🧺</div>
           <h3>Wash & Fold</h3>
-          <p>Professional washing, drying, and folding with attention to detail.</p>
+          <p>Professional wash, dry, fold, and packaging for everyday laundry.</p>
         </article>
-        <article class="card reveal">
-          <div class="icon">💙</div>
-          <h3>Custom Laundry Care</h3>
-          <p>Fragrance-free detergent, low heat, folding preferences, and special instructions whenever possible.</p>
+        <article class="service-card fade-up">
+          <div>💙</div>
+          <h3>Custom Care</h3>
+          <p>Fragrance-free, low heat, special folding, and customer preferences whenever possible.</p>
         </article>
-        <article class="card reveal">
-          <div class="icon">👵</div>
-          <h3>Senior Care Laundry</h3>
-          <p>Dependable pickup and delivery service for seniors who appreciate extra convenience.</p>
+        <article class="service-card fade-up">
+          <div>👵</div>
+          <h3>Senior Care</h3>
+          <p>Helpful, dependable service for seniors who appreciate extra convenience.</p>
         </article>
-        <article class="card reveal">
-          <div class="icon">🏖️</div>
+        <article class="service-card fade-up">
+          <div>🏖️</div>
           <h3>Vacation Rental Linen</h3>
-          <p>Reliable laundry support for Airbnb and vacation rental hosts.</p>
-        </article>
-        <article class="card reveal">
-          <div class="icon">📱</div>
-          <h3>Text Updates</h3>
-          <p>Friendly updates from pickup to delivery so you always know what’s happening.</p>
-        </article>
-        <article class="card reveal">
-          <div class="icon">⭐</div>
-          <h3>Coastal Care Guarantee</h3>
-          <p>If something isn’t right, let us know within 24 hours and we’ll work to make it right.</p>
+          <p>Reliable laundry support for short-term rental hosts and property managers.</p>
         </article>
       </div>
     </section>
 
-    <section id="pricing" class="section navy">
-      <div class="pricing-card reveal">
-        <p class="eyebrow">Simple Pricing</p>
-        <h2>$2.50 <span>per pound</span></h2>
+    <section id="pricing" class="section pricing">
+      <div class="pricing-box fade-up">
+        <p class="small-title">Simple Pricing</p>
+        <h2>$2.50<span>/lb</span></h2>
         <p class="minimum">20 lb minimum order</p>
-        <ul>
-          <li>FREE pickup & delivery on Amelia Island</li>
-          <li>Off-island pickup available with a small travel fee based on location</li>
-          <li>FREE pickup & delivery everywhere for Salty Air Club Members</li>
-          <li>15% off your first wash & fold order</li>
-        </ul>
-        <a class="btn btn-light" href="#schedule">Schedule My Pickup</a>
+
+        <div class="price-list">
+          <p>🏝️ Free pickup & delivery on Amelia Island</p>
+          <p>🚚 Off-island pickup available with travel fee</p>
+          <p>🌊 Free pickup everywhere for Salty Air Club Members</p>
+          <p>🎉 15% off first order</p>
+        </div>
+
+        <a href="#schedule" class="button light">Schedule My Pickup</a>
       </div>
     </section>
 
     <section id="club" class="section sand">
-      <div class="section-header reveal">
-        <p class="eyebrow">Join the Salty Air Club</p>
-        <h2>Never worry about laundry again.</h2>
-        <p>Choose the membership that fits your lifestyle and enjoy free pickup and delivery everywhere in our service area.</p>
+      <div class="center fade-up">
+        <p class="small-title">The Salty Air Club</p>
+        <h2>Memberships made for easy living.</h2>
+        <p>Club members receive free pickup and delivery everywhere in our service area.</p>
       </div>
 
-      <div class="cards three">
-        <article class="membership reveal">
-          <div class="icon">🌊</div>
+      <div class="club-grid">
+        <article class="club-card fade-up">
+          <span class="club-icon">🌊</span>
           <h3>Tide Membership</h3>
-          <p class="plan">Weekly Pickup & Delivery</p>
-          <p>Perfect for busy families, professionals, and anyone who wants laundry handled every week.</p>
+          <p class="club-type">Weekly Pickup</p>
+          <p>Best for busy families and professionals who want laundry handled every week.</p>
         </article>
-        <article class="membership featured reveal">
-          <div class="badge">Popular</div>
-          <div class="icon">🌴</div>
-          <h3>Breeze Membership</h3>
-          <p class="plan">Bi-Weekly Pickup & Delivery</p>
-          <p>Great for couples, retirees, smaller households, and seasonal residents.</p>
-        </article>
-        <article class="membership reveal">
-          <div class="icon">⚓</div>
-          <h3>Captain’s Club</h3>
-          <p class="plan">Loyalty Rewards</p>
-          <p>Our appreciation program for loyal members, referrals, and longtime supporters.</p>
-        </article>
-      </div>
 
-      <div class="benefits reveal">
-        <span>✔ Free Pickup Everywhere</span>
-        <span>✔ Priority Scheduling</span>
-        <span>✔ Pickup Reminders</span>
-        <span>✔ No Contracts</span>
+        <article class="club-card featured fade-up">
+          <span class="popular">Popular</span>
+          <span class="club-icon">🌴</span>
+          <h3>Breeze Membership</h3>
+          <p class="club-type">Bi-Weekly Pickup</p>
+          <p>Ideal for couples, retirees, smaller households, and seasonal residents.</p>
+        </article>
+
+        <article class="club-card fade-up">
+          <span class="club-icon">⚓</span>
+          <h3>Captain’s Club</h3>
+          <p class="club-type">Loyalty Rewards</p>
+          <p>Our special appreciation program for loyal members and longtime supporters.</p>
+        </article>
       </div>
     </section>
 
     <section id="routes" class="section">
-      <div class="section-header reveal">
-        <p class="eyebrow">Pickup Routes</p>
-        <h2>Choose the route that works best for you.</h2>
+      <div class="center fade-up">
+        <p class="small-title">Pickup Routes</p>
+        <h2>Choose your route. We’ll handle the rest.</h2>
       </div>
 
-      <div class="route-grid">
-        <article class="route-card reveal">
-          <div class="route-icon">🌅</div>
+      <div class="routes">
+        <article class="route fade-up">
+          <div>🌅</div>
           <h3>Sunrise Route</h3>
-          <p class="time">7:00 AM – 11:00 AM</p>
-          <p>Perfect for early pickups so your day can keep moving.</p>
+          <p class="route-time">7:00 AM – 11:00 AM</p>
+          <p>Perfect for customers who want laundry picked up early.</p>
         </article>
-        <article class="route-card reveal">
-          <div class="route-icon">🌊</div>
+
+        <article class="route fade-up">
+          <div>🌊</div>
           <h3>Sea Breeze Route</h3>
-          <p class="time">1:00 PM – 5:00 PM</p>
-          <p>A flexible afternoon option for customers who prefer later service.</p>
+          <p class="route-time">1:00 PM – 5:00 PM</p>
+          <p>Flexible afternoon pickup for customers who prefer later service.</p>
         </article>
       </div>
     </section>
 
-    <section class="section promise">
-      <div class="promise-box reveal">
-        <p class="eyebrow">Our Promise</p>
+    <section class="promise">
+      <div class="promise-inner fade-up">
+        <p class="small-title">Our Promise</p>
         <h2>Every Pickup. Every Load. Every Time.</h2>
-        <p>Great service is built on trust. Whether it’s your first pickup or your hundredth, every order is handled with the same care, attention, and reliability.</p>
+        <p>Great service is built on trust. Whether it’s your first pickup or your hundredth, every order is handled with care, attention, and reliability.</p>
       </div>
     </section>
 
-    <section class="section sand">
-      <div class="owner-grid">
-        <div class="owner-photo reveal">
-          <div class="photo-placeholder">Add Owner Photo</div>
-        </div>
-        <div class="owner-copy reveal">
-          <p class="eyebrow">Meet the Owner</p>
-          <h2>Proudly local. Personally committed.</h2>
-          <p>Salty Air Laundry was created to give neighbors more time back. We believe laundry service should feel simple, dependable, and personal—not corporate.</p>
-          <p>Thank you for supporting a local business. We look forward to serving Amelia Island, Fernandina Beach, and Yulee with care.</p>
-        </div>
+    <section class="section owner sand">
+      <div class="owner-photo fade-up">
+        <span>Owner Photo Coming Soon</span>
+      </div>
+
+      <div class="owner-text fade-up">
+        <p class="small-title">Meet the Owner</p>
+        <h2>Proudly local. Personally committed.</h2>
+        <p>Salty Air Laundry was created to give neighbors more time back. We believe laundry service should feel simple, dependable, and personal — not corporate.</p>
+        <p>Thank you for supporting a local business. We look forward to serving Amelia Island, Fernandina Beach, and Yulee with care.</p>
       </div>
     </section>
 
     <section id="faq" class="section">
-      <div class="section-header reveal">
-        <p class="eyebrow">Know Before We Go</p>
-        <h2>Common questions before your first pickup.</h2>
+      <div class="center fade-up">
+        <p class="small-title">Know Before We Go</p>
+        <h2>Questions before your first pickup?</h2>
       </div>
 
-      <div class="faq-list reveal">
+      <div class="faq fade-up">
         <details>
           <summary>Do I need to be home?</summary>
-          <p>No. Leave your laundry bag at your designated pickup location and we’ll notify you when it has been picked up.</p>
+          <p>No. Simply leave your laundry bag at your designated pickup location.</p>
         </details>
         <details>
           <summary>Can I request fragrance-free detergent?</summary>
-          <p>Yes. We can follow your preferred detergent, drying, and folding instructions whenever possible.</p>
+          <p>Yes. We can follow detergent, drying, and folding preferences whenever possible.</p>
         </details>
         <details>
-          <summary>How fast will I get my laundry back?</summary>
+          <summary>How fast is turnaround?</summary>
           <p>Most orders are returned within 24 hours when available.</p>
         </details>
         <details>
           <summary>Do you serve Jacksonville?</summary>
           <p>Not at this time. We proudly serve Amelia Island, Fernandina Beach, and Yulee.</p>
         </details>
-        <details>
-          <summary>How do I pay?</summary>
-          <p>We accept cash, card, Venmo, Cash App, and Zelle.</p>
-        </details>
       </div>
     </section>
 
-    <section id="schedule" class="section navy">
-      <div class="schedule-grid">
-        <div class="schedule-copy reveal">
-          <p class="eyebrow">Let’s Get You Back to the Beach</p>
-          <h2>Schedule your first pickup.</h2>
-          <p>Use this form to request a pickup. You can replace this form later with a Google Form or booking software.</p>
-          <div class="contact-buttons">
-            <a class="btn btn-light" href="tel:+19040000000">Call</a>
-            <a class="btn btn-outline-light" href="sms:+19040000000">Text</a>
-          </div>
-        </div>
+    <section id="schedule" class="section schedule">
+      <div class="schedule-text fade-up">
+        <p class="small-title">Let’s Get You Back to the Beach</p>
+        <h2>Schedule your first pickup.</h2>
+        <p>This form is ready for layout. Next, we’ll connect it to Google Forms or another booking tool.</p>
 
-        <form class="pickup-form reveal" name="pickup-request">
-          <label>
-            Name
-            <input type="text" placeholder="Your name" />
-          </label>
-          <label>
-            Phone
-            <input type="tel" placeholder="Your phone number" />
-          </label>
-          <label>
-            Service Area
-            <select>
-              <option>Amelia Island</option>
-              <option>Fernandina Beach</option>
-              <option>Yulee</option>
-            </select>
-          </label>
-          <label>
-            Preferred Route
-            <select>
-              <option>Sunrise Route (7 AM – 11 AM)</option>
-              <option>Sea Breeze Route (1 PM – 5 PM)</option>
-            </select>
-          </label>
-          <label>
-            Special Instructions
-            <textarea placeholder="Fragrance-free, low heat, pickup notes, etc."></textarea>
-          </label>
-          <button type="submit" class="btn btn-primary full">Request Pickup</button>
-          <p class="form-note">Form demo only. We’ll connect this to Google Forms or email next.</p>
-        </form>
+        <div class="contact-row">
+          <a class="button light" href="tel:+19040000000">Call</a>
+          <a class="button outline-light" href="sms:+19040000000">Text</a>
+        </div>
       </div>
+
+      <form class="pickup-form fade-up">
+        <label>Name<input type="text" placeholder="Your name"></label>
+        <label>Phone<input type="tel" placeholder="Your phone number"></label>
+        <label>Service Area
+          <select>
+            <option>Amelia Island</option>
+            <option>Fernandina Beach</option>
+            <option>Yulee</option>
+          </select>
+        </label>
+        <label>Preferred Route
+          <select>
+            <option>Sunrise Route</option>
+            <option>Sea Breeze Route</option>
+          </select>
+        </label>
+        <label>Special Instructions<textarea placeholder="Fragrance-free, low heat, porch pickup notes, etc."></textarea></label>
+        <button class="button primary full" type="submit">Request Pickup</button>
+      </form>
     </section>
   </main>
 
-  <footer class="site-footer">
+  <footer class="footer">
     <div>
       <h3>Salty Air Laundry</h3>
       <p>Fresh Laundry. Coastal Care. Delivered.</p>
     </div>
+
     <div>
-      <p><strong>Serving:</strong> Amelia Island • Fernandina Beach • Yulee</p>
-      <p><strong>Hours:</strong> Monday–Sunday, 7:00 AM–7:00 PM</p>
+      <p>Serving Amelia Island, Fernandina Beach, and Yulee.</p>
+      <p>Open daily 7:00 AM – 7:00 PM</p>
     </div>
+
     <div>
       <a href="#schedule">Schedule Pickup</a>
       <a href="#pricing">Pricing</a>
-      <a href="#faq">FAQ</a>
+      <a href="#club">Salty Air Club</a>
     </div>
   </footer>
+
+  <a href="#schedule" class="floating-cta">Schedule Pickup</a>
 
   <script src="scripts/script.js"></script>
 </body>
