@@ -1,10 +1,11 @@
-# Salty Air Laundry Website - Version 3.4
+# Salty Air Laundry Website - Version 3.5
 
-Fixes:
-- Removes the weird curling wave animation
-- Adds a cleaner premium opening
-- Logo fades in
-- Soft ocean waves rise from the bottom
+Updates:
+- Larger left-aligned logo
+- Clean premium transparent header
+- Navigation balanced on right
+- Better hero spacing and visual polish
+- Header slightly refines on scroll
 
 Upload:
 - index.html

@@ -42,3 +42,14 @@ if (form) {
     alert("Pickup request received! Next we will connect this form to your real booking system.");
   });
 }
+
+
+const siteHeader = document.getElementById("siteHeader");
+window.addEventListener("scroll", () => {
+  if (!siteHeader) return;
+  if (window.scrollY > 20) {
+    siteHeader.classList.add("scrolled");
+  } else {
+    siteHeader.classList.remove("scrolled");
+  }
+});
