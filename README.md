@@ -1,10 +1,13 @@
-# Salty Air Laundry Website - Version 3.1
+# Salty Air Laundry Website - Version 3.2
 
-This version uses the simple GitHub structure already in your repo:
+Includes:
+- Logo added to header, hero card, and footer
+- Custom wave loading animation
+- Flat GitHub file structure
 
+Upload these files to GitHub:
 - index.html
 - style.css
 - script.js
+- logo.png
 - README.md
-
-No folders needed.

@@ -1,3 +1,13 @@
+document.body.classList.add("loading");
+
+window.addEventListener("load", () => {
+  const loader = document.getElementById("loader");
+  setTimeout(() => {
+    if (loader) loader.classList.add("hidden");
+    document.body.classList.remove("loading");
+  }, 1100);
+});
+
 const menuBtn = document.querySelector(".menu-btn");
 const nav = document.querySelector(".nav");
 
