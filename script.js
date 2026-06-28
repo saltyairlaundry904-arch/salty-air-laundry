@@ -5,7 +5,7 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     if (loader) loader.classList.add("hidden");
     document.body.classList.remove("loading");
-  }, 2300);
+  }, 1800);
 });
 
 const menuBtn = document.querySelector(".menu-btn");
