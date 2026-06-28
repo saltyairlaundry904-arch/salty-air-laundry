@@ -1081,3 +1081,75 @@ textarea {
     max-width: 190px !important;
   }
 }
+
+
+/* Version 3.8 hero card balance fix */
+.hero {
+  grid-template-columns: minmax(0, 1.08fr) minmax(320px, .92fr) !important;
+  column-gap: 36px !important;
+}
+
+.hero-content {
+  max-width: 860px !important;
+}
+
+.hero-visual {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  justify-self: center !important;
+}
+
+.laundry-card,
+.logo-card {
+  margin: 0 auto !important;
+  max-width: 430px !important;
+  width: min(100%, 430px) !important;
+  transform: none !important;
+}
+
+.logo-card img {
+  max-width: 300px !important;
+  width: 100% !important;
+}
+
+.wave-divider {
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  z-index: 3 !important;
+}
+
+@media (max-width: 1020px) {
+  .hero {
+    grid-template-columns: 1fr !important;
+    text-align: left !important;
+  }
+
+  .hero-visual {
+    justify-content: flex-start !important;
+  }
+
+  .laundry-card,
+  .logo-card {
+    margin: 24px 0 0 !important;
+    max-width: 520px !important;
+  }
+}
+
+@media (max-width: 620px) {
+  .hero {
+    text-align: left !important;
+  }
+
+  .hero-visual {
+    justify-content: center !important;
+  }
+
+  .laundry-card,
+  .logo-card {
+    margin: 20px auto 0 !important;
+    max-width: 100% !important;
+  }
+}
