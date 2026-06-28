@@ -1,11 +1,12 @@
-# Salty Air Laundry Website - Version 3.2
+# Salty Air Laundry Website - Version 3.3
 
-Includes:
-- Logo added to header, hero card, and footer
-- Custom wave loading animation
-- Flat GitHub file structure
+Updates:
+- Bigger wave-style opening animation
+- Longer premium loading/fade-in sequence
+- More polished coastal hero feel
+- Keeps flat GitHub file structure
 
-Upload these files to GitHub:
+Upload:
 - index.html
 - style.css
 - script.js
