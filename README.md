@@ -1,4 +1,4 @@
-# Salty Air Laundry Launch Build
+# Salty Air Laundry Final Launch
 
 Upload these files to GitHub:
 - index.html
@@ -7,5 +7,8 @@ Upload these files to GitHub:
 - logo.png
 - README.md
 
-Form sends to: saltyairlaundry904@gmail.com
-Phone/text: 904-321-9219
+Final launch notes:
+- Phone: 904-321-9219
+- Email/Form: saltyairlaundry904@gmail.com
+- FormSubmit is connected
+- Zapier should continue monitoring the Gmail inbox
