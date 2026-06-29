@@ -1,20 +1,23 @@
-# Salty Air Laundry Mockup Style Website
+# Salty Air Laundry Clean Production Build
 
-Upload these files to GitHub:
+This is a clean production build. Upload ONLY these files to GitHub/Cloudflare and remove old extra site files.
+
+Files:
 - index.html
 - style.css
 - script.js
 - logo.png
-- hero.jpg
-- coffee.jpg
+- hero-boardwalk.jpg
+- coffee-porch.jpg
 - wash-fold.jpg
-- pickup.jpg
-- rentals.jpg
-- specialty.jpg
-- sunset-banner.jpg
+- pickup-delivery.jpg
+- vacation-rentals.jpg
+- specialty-care.jpg
+- sunset-cta.jpg
 - README.md
 
 Phone: 904-321-9219
 Email/Form: saltyairlaundry904@gmail.com
 
-The pickup form is connected through FormSubmit and should continue triggering Zapier through Gmail.
+Important:
+If the old site still appears layered underneath, delete the old Worker/Page files and upload this clean set only.
