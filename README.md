@@ -1,17 +1,6 @@
-# Salty Air Laundry 1.0 – The Coastal Edition
+# Salty Air Laundry Root Clean Build
 
-Upload the full contents of this ZIP to GitHub/Cloudflare.
+No folders. Everything goes in the main GitHub file list.
 
-Files included:
-- index.html
-- style.css
-- script.js
-- logo.png
-- images/
-- audio/
-- README.md
-
-Important:
-- Upload this clean build only.
-- The form uses FormSubmit and should continue triggering Zapier through Gmail.
-- The ocean ambience button uses the uploaded Amelia Island video audio.
+Upload every file in this ZIP directly into the repository root.
+Old unused files can stay for now because this build does not reference them.
