@@ -1,6 +1,7 @@
-# Salty Air Laundry Root Clean Build
+# Salty Air Laundry Root Clean Build v2
 
-No folders. Everything goes in the main GitHub file list.
+This fixes repeated service card photos.
 
-Upload every file in this ZIP directly into the repository root.
-Old unused files can stay for now because this build does not reference them.
+No folders. Upload every file directly into the main GitHub file list.
+
+Replace all files with matching names when GitHub asks.
