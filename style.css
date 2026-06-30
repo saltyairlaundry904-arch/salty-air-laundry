@@ -144,8 +144,63 @@
   }
 }
 
-.script-hero{
-font-family:"Brush Script MT","Lucida Handwriting",cursive;
-font-size:1.15em;
-font-weight:400;
+
+/* Launch Edition — final polish */
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+
+.hero-title.launch-title,
+.hero-title {
+  display: grid;
+  gap: 8px;
+  max-width: 900px;
+}
+
+.island-script {
+  font-family: 'Allura', cursive !important;
+  font-weight: 400 !important;
+  color: var(--teal) !important;
+  line-height: .82 !important;
+  letter-spacing: 0 !important;
+  font-size: clamp(5.8rem, 11vw, 10.5rem) !important;
+}
+
+.island-subtitle {
+  font-family: "DM Serif Display", serif !important;
+  color: var(--teal) !important;
+  font-style: italic !important;
+  font-size: clamp(2.6rem, 5vw, 5rem) !important;
+  line-height: .95 !important;
+  letter-spacing: -.035em !important;
+}
+
+.hero .support {
+  max-width: 720px;
+  color: var(--navy);
+}
+
+/* Removes the old services heading if any cached/older markup survives. */
+.services-clean .section-heading,
+.services-section > .section-heading {
+  display: none !important;
+}
+
+.services-section {
+  padding-top: 76px !important;
+}
+
+.service-card img {
+  object-position: center center;
+}
+
+@media(max-width: 640px) {
+  .island-script {
+    font-size: clamp(4.4rem, 18vw, 6.8rem) !important;
+  }
+  .island-subtitle {
+    font-size: clamp(2.1rem, 9vw, 3.5rem) !important;
+  }
+  .hero-title.launch-title,
+  .hero-title {
+    max-width: 100%;
+  }
 }
