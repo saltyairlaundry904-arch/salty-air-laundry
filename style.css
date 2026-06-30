@@ -358,3 +358,27 @@ section#services.launch-services {
 .services-section > .section-heading {
   display: none !important;
 }
+
+
+/* CRITICAL PATCH */
+.launch-script,
+.hero-script,
+.island-script,
+.hero-title .fade-one,
+.final-hero-title .fade-one {
+  font-family: 'Great Vibes', 'Brush Script MT', 'Segoe Script', cursive !important;
+  font-weight: 400 !important;
+  color: #0B3558 !important;
+  font-style: normal !important;
+  letter-spacing: 0 !important;
+  font-size: clamp(5.7rem, 8.2vw, 8.9rem) !important;
+  line-height: .78 !important;
+}
+
+section.services-section:not(.launch-services) {
+  display: none !important;
+}
+
+.services-section > .section-heading {
+  display: none !important;
+}
