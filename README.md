@@ -1,11 +1,10 @@
-# Salty Air Laundry – Final Quick Launch
+# Salty Air Laundry – Same-Day Launch
 
 Upload every file in this ZIP directly into the GitHub repository root and choose replace.
 
-Changes:
-- Hero adjusted to match the clean coastal mockup.
-- Script-style Island Time headline.
-- Clean Our Services heading.
-- Replaced service images so no baked-in letters appear.
-- Removed #top URL behavior.
-- Kept Senior Laundry Assistance.
+This version:
+- Rebuilds the hero and services top section to match the approved coastal mockup.
+- Uses script-style “You're on Island Time.”
+- Removes the old text that was showing inside/behind service images.
+- Keeps Senior Laundry Assistance and all lower sections.
+- Removes old #top URL behavior.
