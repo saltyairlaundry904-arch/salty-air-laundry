@@ -545,3 +545,11 @@ section.services-section:not(.launch-services) {
 .service-card img {
   object-position:center 58%!important;
 }
+
+
+/* FINAL IMAGE CLEANUP */
+.service-card img {
+  height:185px!important;
+  object-fit:cover!important;
+  object-position:center 62%!important;
+}
