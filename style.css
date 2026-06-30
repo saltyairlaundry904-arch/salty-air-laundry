@@ -322,23 +322,31 @@
 }
 
 
-/* DUPLICATE SERVICES FIX + FINAL HERO FONT FORCE */
+/* TRUE FIX 2026-06-30: duplicate services removed + script font forced */
 .launch-script,
 .hero-script,
-.island-script {
-  font-family: "Brush Script MT", "Segoe Script", "Snell Roundhand", "Lucida Handwriting", cursive !important;
+.island-script,
+.final-hero-title .fade-one,
+.hero-title .fade-one {
+  font-family: 'Great Vibes', 'Brush Script MT', 'Segoe Script', cursive !important;
   font-weight: 400 !important;
-  color: var(--navy) !important;
   font-style: normal !important;
+  color: var(--navy) !important;
   letter-spacing: 0 !important;
 }
 
 .launch-script {
-  font-size: clamp(5.4rem, 8.6vw, 9.2rem) !important;
+  font-size: clamp(5.7rem, 8.2vw, 8.9rem) !important;
   line-height: .78 !important;
 }
 
-/* Hide any legacy services heading/cards that may remain from cached/old markup */
+.final-hero-title .fade-one,
+.hero-title .fade-one {
+  font-size: clamp(5.7rem, 8.2vw, 8.9rem) !important;
+  line-height: .78 !important;
+}
+
+/* Hide any legacy services section if browser serves mixed cached HTML */
 section.services-section:not(.launch-services) {
   display: none !important;
 }
