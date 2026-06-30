@@ -1,10 +1,10 @@
-# Salty Air Laundry – No Letters Image Fix
+# Salty Air Laundry – Same-Day Launch
 
-Upload these files:
-- wash-fold.jpg
-- pickup.jpg
-- beach.jpg
-- care.jpg
-- style.css
+Upload every file in this ZIP directly into the GitHub repository root and choose replace.
 
-This replaces the service card images with clean originals that do not have letters baked into the pictures.
+This version:
+- Rebuilds the hero and services top section to match the approved coastal mockup.
+- Uses script-style “You're on Island Time.”
+- Removes the old text that was showing inside/behind service images.
+- Keeps Senior Laundry Assistance and all lower sections.
+- Removes old #top URL behavior.
