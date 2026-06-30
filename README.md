@@ -1,8 +1,10 @@
-# Salty Air Laundry – True Fix
+# Salty Air Laundry – No Letters Image Fix
 
-Upload every file and choose replace.
+Upload these files:
+- wash-fold.jpg
+- pickup.jpg
+- beach.jpg
+- care.jpg
+- style.css
 
-This fix:
-- Removes the duplicate old “How We Give You Time Back” section from HTML.
-- Loads the script font correctly from the HTML head.
-- Forces the Island Time hero into the script style.
+This replaces the service card images with clean originals that do not have letters baked into the pictures.

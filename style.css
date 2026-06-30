@@ -547,9 +547,9 @@ section.services-section:not(.launch-services) {
 }
 
 
-/* FINAL IMAGE CLEANUP */
+/* NO-LETTERS IMAGE FIX */
 .service-card img {
   height:185px!important;
   object-fit:cover!important;
-  object-position:center 62%!important;
+  object-position:center center!important;
 }
