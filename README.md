@@ -1,10 +1,12 @@
-# Salty Air Laundry – Same-Day Launch
+# Salty Air Laundry – Restore and Crop Fix
 
-Upload every file in this ZIP directly into the GitHub repository root and choose replace.
+This restores the layout/design from the font-fix version and only crops the top edge of the same service images to remove the letters.
 
-This version:
-- Rebuilds the hero and services top section to match the approved coastal mockup.
-- Uses script-style “You're on Island Time.”
-- Removes the old text that was showing inside/behind service images.
-- Keeps Senior Laundry Assistance and all lower sections.
-- Removes old #top URL behavior.
+Upload:
+- index.html
+- style.css
+- script.js
+- wash-fold.jpg
+- pickup.jpg
+- beach.jpg
+- care.jpg
