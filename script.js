@@ -1,4 +1,5 @@
-// Remove old #top from the address bar if it appears.
+
+// Final launch cleanup: remove old #top from the address bar.
 if (window.location.hash === "#top") {
   history.replaceState(null, "", window.location.pathname + window.location.search);
 }
