@@ -1,11 +1,8 @@
-# Salty Air Laundry – Final Quick Launch
+# Salty Air Laundry Clean Version 1.0
 
-Upload every file in this ZIP directly into the GitHub repository root and choose replace.
+Upload only these files to GitHub and choose replace:
+- index.html
+- style.css
+- script.js
 
-Changes:
-- Hero adjusted to match the clean coastal mockup.
-- Script-style Island Time headline.
-- Clean Our Services heading.
-- Replaced service images so no baked-in letters appear.
-- Removed #top URL behavior.
-- Kept Senior Laundry Assistance.
+This version uses your exact current live HTML, replaces the overloaded CSS with one clean stylesheet, fixes the script hero font, and prevents the services heading from peeking through the cards.
