@@ -547,7 +547,7 @@ section.services-section:not(.launch-services) {
 }
 
 
-/* NO-LETTERS IMAGE FIX */
+/* RESTORE + TOP-CROP ONLY FIX */
 .service-card img {
   height:185px!important;
   object-fit:cover!important;

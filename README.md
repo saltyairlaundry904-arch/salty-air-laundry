@@ -1,10 +1,12 @@
-# Salty Air Laundry – No Letters Image Fix
+# Salty Air Laundry – Restore and Crop Fix
 
-Upload these files:
+This restores the layout/design from the font-fix version and only crops the top edge of the same service images to remove the letters.
+
+Upload:
+- index.html
+- style.css
+- script.js
 - wash-fold.jpg
 - pickup.jpg
 - beach.jpg
 - care.jpg
-- style.css
-
-This replaces the service card images with clean originals that do not have letters baked into the pictures.
