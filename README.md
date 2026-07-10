@@ -1,12 +1,10 @@
-# Salty Air Laundry – Clean Images Final
+# Salty Air Laundry – No Letters Image Fix
 
-Upload these files to GitHub:
-- index.html
-- style.css
-- script.js
+Upload these files:
 - wash-fold.jpg
 - pickup.jpg
 - beach.jpg
 - care.jpg
+- style.css
 
-This replaces the service images too, which is required because the letters are baked into the current image files.
+This replaces the service card images with clean originals that do not have letters baked into the pictures.
